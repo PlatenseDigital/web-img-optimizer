@@ -1,0 +1,78 @@
+body{
+    background-color: #71D082;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    min-width: 500px;
+    min-height: 500px;
+    user-select: none; 
+}
+
+#imageUpload {
+    color: transparent;
+    width: 40%;
+    height: 30vw;
+    min-height: 100px;
+    max-width: 450px;
+    max-height: 350px;
+  }
+  #imageUpload::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  #imageUpload::before {
+    content: 'Search your images or drag and drop here';
+    color: #000000b0;
+    background-color: #41b1aa;
+    border: 1px solid #3B3932;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.222);
+    padding: 5px 8px;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff3;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    white-space: break-spaces;
+    transition:  box-shadow 0.3s linear;
+  }
+
+@keyframes hovbutton {
+    from {background-color: #41b1aa;}
+    to {background-color: #44c1b8;}
+}
+
+@keyframes actbutton {
+    from {background-color: #44c1b8;}
+    to {background-color: #64ded6;}
+}
+
+  #imageUpload:hover::before {
+    background-color:  #44c1b8;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.401);
+    animation-name: hovbutton;
+    animation-duration: 0.3s;
+  }
+  #imageUpload:active {
+    outline: 0;
+  }
+  #imageUpload:active::before {
+    background-color:  #64ded6;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.222);
+    animation-name: actbutton;
+    animation-duration: 0.3s;
+  }
+
+  #copyright{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+  }
