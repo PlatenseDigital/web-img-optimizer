@@ -1,7 +1,7 @@
 # Web Image Optimizer by Platense Digital
 This is a really simple converter from any image file to WEBP
 
-## funcionalities
+## functionalities
 The app is functional but can be better. I have ideas for the future but i have a lot of other proyects as priority
 
 ### That it has
