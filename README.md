@@ -18,10 +18,9 @@ The app is functional but can be better. I have ideas for the future but i have 
 
 ## Download and use
 In this repository there is only the source code. If you only want to use the application, download your version and enjoy it.
-- Windows: https://drive.google.com/file/d/1x_TkHaE_F7nFPeqMC5c98OF5j5Am8QHd/view?usp=share_link
+- Windows: [Download from my Google Drive](https://drive.google.com/file/d/1x_TkHaE_F7nFPeqMC5c98OF5j5Am8QHd/view?usp=share_link)
 - Linux: Comming soon.
-For 
 
 ## Screenshots:
 
-![picture alt](https://drive.google.com/file/d/1eBE-AIbqpwFYGHUYpLLGZn_NGLunv_n1/view?usp=sharing "App screenshot.")
+![picture alt](https://i.ibb.co/4Tw8M0h/Captura-de-pantalla-2023-02-04-002104.png "App screenshot.")
